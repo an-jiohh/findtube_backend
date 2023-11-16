@@ -1,0 +1,62 @@
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: #e2e8f0;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 1.2em;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  color: #2d3748;
+  font-size: 1em;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #48bb78;
+  color: #fff;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #2f855a;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.links a {
+  color: #48bb78;
+  text-decoration: none;
+  font-weight: bold;
+}
